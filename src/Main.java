@@ -1,10 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        int result = new Programmers_queueNstack_2_bridge_truck()
-                .solution(2, 10, new int[]{
-                        7,4,5,6
-                });
-        System.out.println(result);
+        int[] result = new Programmers_search_1_test().solution(new int[]{1,3,2,4,2});
+        for (int i : result) {
+            System.out.println(i);
+        }
     }
 }
