@@ -1,7 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        String s = new Programmers_sort_2_make_biggest_number().solution(new int[] {0, 0, 0, 0, 3});
-        System.out.println(s);
+        int[] arr = new Programmers_queueNstack_2_tower().solution(new int[] {3,9,9,3,5,7,2});
+        for (int i : arr) {
+            System.out.println(i);
+        }
     }
 }
