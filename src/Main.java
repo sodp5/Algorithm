@@ -1,8 +1,8 @@
 
 public class Main {
     public static void main(String[] args) {
-        int result = new Programmers_hash_2_camouflage().solution(
-                new String[][] {{"crow_mask", "eye"}, {"blue_sung", "face"}, {"smoky_mak", "face"}}
+        int result = new Programmers_greedy_1_physical_education().solution(
+                7, new int[]{2,3,4}, new int[]{1,2,3,6}
         );
         System.out.println(result);
     }
